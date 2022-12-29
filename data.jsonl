@@ -1,0 +1,1 @@
+{"prompt":"adds cell a3 and k3","completion":"{\"ExcelFormula\":\"=A3+K3\",\"GoogleSheetsFormula\":\"=A3+K3\"}"}

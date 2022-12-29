@@ -1,0 +1,36 @@
+canvas {
+	margin: 0%;
+	shape-rendering: optimizeSpeed;
+	overflow: hidden;
+}
+html {
+	margin: 0; 
+	padding: 0; 
+	scroll-behavior: smooth;
+}
+body {
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  position: sticky;
+	top: 0;
+  box-sizing: border-box;
+  padding: 20px;
+  background: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.btn-logo {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #fff;
+	border: none;
+	border-radius: 0;
+	box-sizing: border-box;
+}
