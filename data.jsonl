@@ -1,1 +1,4 @@
 {"prompt":"adds cell a3 and k3","completion":"{\"ExcelFormula\":\"=A3+K3\",\"GoogleSheetsFormula\":\"=A3+K3\"}"}
+{"prompt":"takes the sum of row k
+","completion":"{\"ExcelFormula\":\"=SUM(K:K)\",\"GoogleSheetsFormula\":\"=SUM(K:K)\"}"}
+{"prompt":"takes the average of the range A1 to c10","completion":"{\"ExcelFormula\":\"=AVERAGE(A1:C10)\",\"GoogleSheetsFormula\":\"=AVERAGE(A1:C10)\"}"}

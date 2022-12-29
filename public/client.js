@@ -11,6 +11,9 @@ $(document).ready(function(){
     console.log('hihihi');
 		socket.emit('CTS_RequestSolution',{request:$('#inputbox').val()});
 		$('#waiting').html("Generating...");
+		
+		$('#excelSolution').html("");
+		$('#googleSheetsSolution').html("");
 	});
 });
 socket.on('STC_Solution', function(data) {
